@@ -1,3 +1,3 @@
 # deploy-actions
 
-hello world
+hello
