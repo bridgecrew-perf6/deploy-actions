@@ -19,8 +19,8 @@ jobs:
       - name: Run scripts in server
         uses: appleboy/ssh-action@master
         with:
-          key: ${{ secrets.DEV_SSH_KEY }}
-          host: ${{ secrets.DEV_HOST }}
+          key: ${{ secrets.SSH_KEY }}
+          host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
             cd deploy-actions
